@@ -1,0 +1,1 @@
+PicoZed is a low-cost development board based on the Xilinx Zynq-7000 All Programmable SoC.

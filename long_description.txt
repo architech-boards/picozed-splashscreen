@@ -1,0 +1,76 @@
+<style type="text/css">
+    .TFtable{
+        width:100%;
+        border-collapse:collapse;
+    }
+    .TFtable td{
+        padding:2px;
+        border:#AAAAAA 1px solid;
+    }
+    /* provide some minimal visual accomodation for IE8 and below */
+    .TFtable tr{
+        background: #CCCCCC;
+    }
+    /* Define the background color for all the ODD background rows */
+    .TFtable tr:nth-child(odd){
+        background: #CCCCCC;
+    }
+    /* Define the background color for all the EVEN background rows */
+    .TFtable tr:nth-child(even){
+        background: #FFFFFF;
+    }
+</style>
+<b>PicoZed™</b> is a highly flexible, rugged, System-On-Module, or SOM that is based on the Xilinx Zynq®-7000 All Programmable (AP) SoC. It offers designers the flexibility to migrate between the 7010, 7015, 7020, and 7030 Zynq-7000 AP SoC devices in a pin-compatible footprint.<br>
+Specifications:
+<table class="TFtable">
+    <tr>
+        <td valign="top">
+            <b>SoC</b>
+        </td>
+        <td>
+            XC7Z0X0
+        </td>
+    </tr>
+    <tr>
+        <td valign="top">
+            <b>Memory</b>
+        </td>
+        <td>
+            1 GB of DDR3 SDRAM<br>
+            128 Mb of QSPI Flash<br>
+            4 GB eMMC
+        </td>
+    </tr>
+    <tr>
+        <td valign="top">
+            <b>Communications</b>
+        </td>
+        <td>
+            10/100/1000 Ethernet<br>
+            USB 2.0<br>
+            USB-UART
+        </td>
+    </tr>
+    <tr>
+        <td valign="top">
+            <b>User I/O (via dual board-to-board connectors)</b>
+        </td>
+        <td>
+            7Z010 Version<br>
+            113 User I/O (100 PL, 13 PS MIO)<br>
+            Configurable as up to 48 LVDS pairs or 100 single-ended I/O
+        </td>
+    </tr>
+    <tr>
+        <td valign="top">
+            <b>Other</b>
+        </td>
+        <td>
+            JTAG confi guration port accessible via I/O connectors<br>
+            33.33 MHz oscillator<br>
+            User LED and push switch
+        </td>
+    </tr>
+
+</table>
+
