@@ -134,8 +134,8 @@ else
 	echo "SSTATE_DIR = \"/home/architech/architech_sdk/sstate-cache\"" >> conf/local.conf
 fi
 
-sed -i "/^[ \|\t]*KERNEL_DEVICETREE\(.\)*$/d" $2/local.conf
-echo -e 'KERNEL_DEVICETREE = "${S}/git/arch/arm/boot/dts/picozed-zynq7.dts"' >> $2/local.conf
+sed -i "/^[ \|\t]*KERNEL_DEVICETREE\(.\)*$/d" conf/local.conf
+echo -e 'KERNEL_DEVICETREE = "${S}/git/arch/arm/boot/dts/picozed-zynq7.dts"' >> conf/local.conf
 
 ###########################################################################################################
 # conf/bblayers.conf customization
